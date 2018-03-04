@@ -1,0 +1,24 @@
+{
+  "name": "fpp-utilities",
+  "version": "1.0.0",
+  "description": "Some utilities for making requests to the face++ API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel  ./src --experimental --source-maps-inline -d ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fals3Android/fpp-utilities.git"
+  },
+  "author": "David Davila",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "dependencies": {
+    "es6-promise": "^4.2.4",
+    "isomorphic-fetch": "^2.2.1"
+  }
+}
